@@ -116,7 +116,7 @@ class Main {
 
             try {
                 String result = calc(input);
-                System.out.println("Result: " + result);
+                System.out.println(result);
             } catch (IllegalArgumentException e) {
                 System.out.println("Error: " + e.getMessage());
             }
